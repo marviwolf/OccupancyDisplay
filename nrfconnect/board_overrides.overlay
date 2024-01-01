@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2020, PHYTEC Messtechnik GmbH
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&arduino_spi {
+	uc8179_waveshare_epaper_gdew075t7: uc8179@0 {
+		label = "gdew075t7";
+	};
+};
+
+/* &uart0 {
+	status = "disabled";
+};
+
+&uart1 {
+	status = "disabled";
+};  */

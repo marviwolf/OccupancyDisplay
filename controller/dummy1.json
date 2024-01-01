@@ -1,0 +1,53 @@
+{
+    "datasetkey": "",
+    "room": [
+        {
+            "pincode": 20202021,
+            "discriminator": 1860,
+            "nodeid": 1,
+            "roomnumber": "R0.007",
+            "entry": [
+                {
+                    "lecturename": "Embedded Computing",
+                    "subtitle": "Vorlesung IF5A",
+                    "starthour": 8,
+                    "startminute": 15,
+                    "endhour": 9,
+                    "endminute": 45
+                },
+                {
+                    "lecturename": "Embedded Computing",
+                    "subtitle": "Pratkikum Teilgruppe 1",
+                    "starthour": 10,
+                    "startminute": 0,
+                    "endhour": 11,
+                    "endminute": 30
+                },
+                {
+                    "lecturename": "Stochastik und Statistik",
+                    "subtitle": "Vorlesung IF3A",
+                    "starthour": 11,
+                    "startminute": 45,
+                    "endhour": 13,
+                    "endminute": 15
+                },
+                {
+                    "lecturename": "Stochastik und Statistik",
+                    "subtitle": "Pratkikum Teilgruppe 2",
+                    "starthour": 13,
+                    "startminute": 30,
+                    "endhour": 15,
+                    "endminute": 0
+                },
+                {
+                    "lecturename": "Verteidigung Bachelorarbeit",
+                    "subtitle": "Prof. Dr. Martin Orehek",
+                    "starthour": 16,
+                    "startminute": 30,
+                    "endhour": 18,
+                    "endminute": 0
+                }
+            ]
+        }
+    ]
+}

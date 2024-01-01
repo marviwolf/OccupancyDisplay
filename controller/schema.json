@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://idk.egal",
+    "title": "Room Occupancy data",
+    "description": "Schema to validate json that provides the matter controller with room data",
+    "type": "object",
+    "properties": {
+        "datasetkey": {
+            "type": "string"
+        },
+        "room": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "pincode": {
+                        "type": "number"
+                    },
+                    "discriminator": {
+                        "type": "number"
+                    },
+                    "nodeid": {
+                        "type": "number"
+                    },
+                    "roomnumber": {
+                        "type": "string"
+                    },
+                    "entry": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "lecturename": {
+                                    "type": "string"
+                                },
+                                "subtitle": {
+                                    "type": "string"
+                                },
+                                "startminute": {
+                                    "type": "number"
+                                },
+                                "starthour": {
+                                    "type": "number"
+                                },
+                                "endminute": {
+                                    "type": "number"
+                                },
+                                "endhour": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "lecturename",
+                                "subtitle",
+                                "startminute",
+                                "starthour",
+                                "endminute",
+                                "endhour"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "pincode",
+                    "discriminator",
+                    "nodeid",
+                    "roomnumber",
+                    "entry"
+                ]
+            }
+        }
+    },
+    "required": [
+        "datasetkey"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "datasetkey": "",
+    "room": [
+        {
+            "pincode": 20202021,
+            "discriminator": 1860,
+            "nodeid": 1,
+            "roomnumber": "R0.007",
+            "entry": [
+                {
+                    "lecturename": "Fakultaetstreffen FK07",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 8,
+                    "startminute": 0,
+                    "endhour": 9,
+                    "endminute": 30
+                },
+                {
+                    "lecturename": "Sicheres Netzwerkmanagement",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 10,
+                    "startminute": 0,
+                    "endhour": 11,
+                    "endminute": 30
+                },
+                {
+                    "lecturename": "Wirtschaftsmathematik I",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 11,
+                    "startminute": 45,
+                    "endhour": 13,
+                    "endminute": 15
+                },
+                {
+                    "lecturename": "Wirtschaftsmathematik I",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 13,
+                    "startminute": 30,
+                    "endhour": 15,
+                    "endminute": 0
+                },
+                {
+                    "lecturename": "Nachhaltigkeit & KI",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 15,
+                    "startminute": 15,
+                    "endhour": 16,
+                    "endminute": 45
+                },
+                {
+                    "lecturename": "Nachhaltigkeit & KI",
+                    "subtitle": "Prof. Dr. Unknown",
+                    "starthour": 17,
+                    "startminute": 0,
+                    "endhour": 18,
+                    "endminute": 30
+                }
+            ]
+        }
+    ]
+}
